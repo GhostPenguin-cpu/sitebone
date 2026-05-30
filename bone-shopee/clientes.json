@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "Francisco silva",
+        "email": "contasconta@gmail.com",
+        "telefone": "(86) 98831-2658",
+        "senha_hash": "$2y$10$dxa3ufxLyOrPIT8f75f1q.X5BRF21dIqWBP15ssfZxqodNTnLzHqO",
+        "endereco": {
+            "cep": "65980-000",
+            "rua": "sao francisoc",
+            "num": "2",
+            "bairro": "centro",
+            "cidade": "Carolina",
+            "uf": "MA"
+        },
+        "data": "2026-05-29T05:08:30+02:00"
+    }
+]
