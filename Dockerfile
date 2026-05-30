@@ -1,11 +1,8 @@
-FROM php:8.2-apache
+FROM php:8.2-cli
 
-RUN a2dismod mpm_event mpm_worker 2>/dev/null; \
-    a2enmod mpm_prefork php8.2 2>/dev/null; \
-    true
+COPY . /app
+WORKDIR /app
 
-COPY . /var/www/html/
-RUN chown -R www-data:www-data /var/www/html
+EXPOSE 8080
 
-EXPOSE 80
-CMD ["apache2-foreground"]
+CMD ["php", "-S", "0.0.0.0:8080"]
