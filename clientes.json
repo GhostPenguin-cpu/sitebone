@@ -1,4 +1,6 @@
-[
+git add .
+git commit -m "add project files"
+git push[
     {
         "nome": "Francisco silva",
         "email": "contasconta@gmail.com",
